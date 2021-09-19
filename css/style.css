@@ -97,3 +97,28 @@ p.descriotion{
 section#Frequently-section {
     background-color: #f2f9f8;
 }
+/* Team-section  */
+img.card-img-top {
+    border-radius: 50%;
+    height: 50%!important;
+    width: 58%;
+    margin: 59px 59px 0 59px;
+}
+h5.card-title {
+    font-size: 18px;
+    color:var(--primary-color);
+}
+span {
+    font-size: 13px;
+}
+p.card-text {
+    font-size: 15px;
+}
+.social i{
+    color: var(--secondary-color);
+}
+.card {
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border: none;
+}
