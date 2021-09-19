@@ -87,3 +87,13 @@ p.descriotion{
     background:var(--secondary-color) ;
     border:none;
 }
+/* Frequently-section */
+/* .accordion-item{
+    font-size: 18px;
+}
+.accordion-item:hover{
+    color:var(--secondary-color);
+} */
+section#Frequently-section {
+    background-color: #f2f9f8;
+}
