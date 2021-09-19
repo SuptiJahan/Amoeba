@@ -50,3 +50,10 @@ section#Hero {
     color: var(--secondary-color);
     background:var(--text-color);
 }
+/* about-section */
+ul li{
+    list-style: none;
+}
+ul{
+    padding-left: 0;
+}
