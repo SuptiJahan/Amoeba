@@ -57,3 +57,18 @@ ul li{
 ul{
     padding-left: 0;
 }
+/* services  */
+h4.descriotion {
+    font-size: 18px;
+    color:var(--primary-color)!important;
+    font-weight: 700;
+}
+h4.descriotion:hover{
+    color: var(--secondary-color)!important;
+}
+.icon {
+    color: var(--secondary-color);
+}
+p.descriotion{
+    font-size: 14px;
+}
