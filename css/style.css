@@ -72,3 +72,18 @@ h4.descriotion:hover{
 p.descriotion{
     font-size: 14px;
 }
+/* call-section  */
+.call-inner{
+    color:var(--text-color);
+}
+.call-btn{
+    color:var(--text-color);
+    border: 2px solid var(--text-color);
+    border-radius: 26px;
+    padding: 10px 32px;
+    background: none;
+}
+.call-btn:hover{
+    background:var(--secondary-color) ;
+    border:none;
+}
