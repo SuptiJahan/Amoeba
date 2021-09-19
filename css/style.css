@@ -1,0 +1,35 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400&display=swap');
+/*global css*/
+:root{
+    /*global color*/
+    --primary-color:#555;
+    --secondary-color:#70B9B0;
+    --text-color:#FFFFFF;
+    --header-color:#343a40;
+    --accent-color:#777;
+    
+    /*global font*/
+    --primary-font:'Open Sans', sans-serif;
+    --secondary-font:'Lato', sans-serif;
+}
+h1 h2 h3 h4 h5 h6{
+    font-family:var(--secondary-font);
+}
+body{
+    font-family: var(--primary-font);
+    color:var(--accent-color);
+}
+/* header */
+section#Header {
+    background: #2d6760;
+}
+.logo {
+  color:var(--text-color);
+}
+li.nav-item a {
+    color: var(--secondary-color)!important;
+}
+li.nav-item a:hover{
+    color:var(--text-color)!important;
+}
