@@ -33,3 +33,20 @@ li.nav-item a {
 li.nav-item a:hover{
     color:var(--text-color)!important;
 }
+/* Hero-section */
+section#Hero {
+    background-size: cover;
+        background: rgba(112, 185, 176, 0.85);
+        color:var(--text-color);
+}
+.started-btn {
+    border: 1px solid var(--secondary-color);
+    border-radius: 26px;
+    color:var(--text-color);
+    background:var(--secondary-color) ;
+    padding: 9px 28px;
+}
+.started-btn:hover{
+    color: var(--secondary-color);
+    background:var(--text-color);
+}
